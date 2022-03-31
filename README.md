@@ -2,6 +2,8 @@
 
 Third year project for the [University of Manchester](https://www.manchester.ac.uk/).
 
+You can find the full project and sources for the data on the [GitHub page](https://github.com/vladmat1999/third_year_project).
+
 ## Description
 The project is aimed at authenticating users using swipe gestures on mobile devices. Multiple approaches are proposed,
 including an approach based on automatic feature extraction using convolutional neural networks (CNNs). Further information
@@ -16,7 +18,7 @@ pip install -r requirements.txt
 
 No special hardware is required, although a GPU is recommended. 
 ## Datasets
-The datasets for the experiment can be downloaded [here](). These are in the form of `.pkl` files, and some
+The datasets for the experiment can be downloaded [here](https://drive.google.com/drive/folders/1-5x9z2kaM1Nd--9_ZyISa3VFTrhOs6Uk?usp=sharing). These are in the form of `.pkl` files, and some
 amount of parsing has been made on them in order to make loading the data faster. You can find the full, unparsed 
 datasets at the following links:
 
@@ -53,7 +55,7 @@ This notebook contains the experiments for user authentication using the 1-class
 first CNN model to predict the features for the swipes. The experiment is similar to the first one 
 (`user_authentication_using_engineered_features`), with the only addition of requiring a `models` folder to run.
 
-The pretrained models can be found [here](). To run it, place the `models` folder in the root directory, or change 
+The pretrained models can be found [here](https://drive.google.com/drive/folders/1-5x9z2kaM1Nd--9_ZyISa3VFTrhOs6Uk?usp=sharing). To run it, place the `models` folder in the root directory, or change 
 the parameter `MODELS_DIR` in the notebook.
 
 The experiment runs for 10 iterations, using a different subset of users for each model (the ones that were not used for training).
@@ -64,7 +66,7 @@ Similar to the previous one, this notebook contains the experiments for user aut
 but it parses the gesture points by turning them into images and using the second CNN model to predict the features 
 for the swipes. This experiment also requries a `models` folder in order to run. 
 
-The pretrained models can be found [here](). To run it, place the `models` folder in the root directory, or change 
+The pretrained models can be found [here](https://drive.google.com/drive/folders/1-5x9z2kaM1Nd--9_ZyISa3VFTrhOs6Uk?usp=sharing). To run it, place the `models` folder in the root directory, or change 
 the parameter `MODELS_DIR` in the notebook.
 
 The experiment runs for 10 iterations, using a different subset of users for each model (the ones that were not used for training).
